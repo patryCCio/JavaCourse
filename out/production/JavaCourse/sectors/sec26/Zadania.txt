@@ -1,0 +1,12 @@
+Zadanie 1
+Wykorzystując Scanner wczytaj wpisane z klawiatury imię, nazwisko oraz wzrost. Następnie wypisz na ekran zdanie:
+“Jestem <imię> <nazwisko> i mam <wzrost> cm wzrostu”
+
+Zadanie 2
+Wczytuj z klawiatury dane do momentu napotkania małego ‘x’ bądź dużego ‘X’. Wypisuj na ekran teksty, które są oddzielane średnikiem ';'
+
+Zadanie 3
+Wczytaj całą linię tekstu z klawiatury. Następnie pobierz liczbę. Wypisz na ekran wczytaną linię tyle razy ile wynosi podana liczba
+
+Zadanie 4
+Wczytuj liczby i licz ich sumę. Zakończ działanie w momencie napotkania liczby ujemnej

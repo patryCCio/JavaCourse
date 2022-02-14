@@ -1,0 +1,18 @@
+6 zadań
+
+1. Utwórz program, w którym stworzysz zmienne i przypiszesz do tych zmiennych wartości takie jak Twój wiek, wzrost, waga. Niech będą w jednostkach lata, metry, kilogramy odpowiednio. Będziesz potrzebował 3 zmienne. Zastanów się nad nazewnictwem oraz typem zmiennych. Na koniec wypisz wszystko na ekran.
+
+2. Na podstawie danych z poprzedniego zadania oblicz Twoje BMI (Body Mass Index). Wzór to masa / wzrost^2 (masa w kilogramach, wzrost w metrach).
+
+3. Skonwertuj wynik z poprzedniego zdania na liczbę całkowitą. Zadanie jest szybkie, ale podpowiem Ci, że chcemy skonwertować liczbę zmiennoprzecinkową (np. float) na liczbę całkowitą (np. int).
+
+4. Podaj dowolną liczbę typu całkowitego. Następnie oblicz wynik dzielenia oraz resztę z dzielenia przez liczby 2, 3 oraz 11. Zobacz czy wyniki zgadzają się z Twoimi oczekiwaniami.
+
+5. Odpowiedz, co ujrzymy na ekranie dla poniższego kodu?
+
+int x = 5;
+boolean wynikPierwszy = x < 10 || x != 0 || x > -1;
+boolean wynikDrugi =  x < 10 && x != 0 && x > -1;
+System.out.println("Wynik pierwszy: " + wynikPierwszy);
+System.out.println("Wynik drugi: " + wynikDrugi);
+6*. Przypisz wartość przekraczającą poza rozmiar zmiennej typu int. Zobacz co się stanie i zastanów dlaczego. Spróbuj oszukać środowisko, aby nie wytykało Ci błędów :)

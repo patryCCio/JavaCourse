@@ -1,0 +1,18 @@
+Utwórz package o nazwie “zadania_abstrakcja_interfejs”, a w nim kolejne package do każdego zadania
+
+Zadanie 1
+- stwórz klasę abstrakcyjną o nazwie “StacjaKosmiczna”
+- dodaj metodę abstrakcyjną o nazwie “atakujLaserem”
+- stwórz nową klasę o nazwie “GwiazdaSmierci”, która będzie dziedziczyć po klasie “StacjaKosmiczna”. Zaimplementuj metodę “atakujLaserem”, która wyświetli na ekranie “piu piu"
+- przetestuj w main
+
+Zadanie 2
+- stwórz interfejs o nazwie "Figury", który będzie posiadał metody “obwod”, “pole”. Obydwie metody będą zwracały liczbę zmiennoprzecinkową
+- stwórz dwie klasy “Kolo”, “Prostokat”, które będą implementowały ten interfejs
+- dodaj konstruktor, w którym w klasie “Kolo” będzie przekazywany promień koła, a w klasie “Prostokat” długości dwóch boków prostokąta a i b
+- zaimplementuj metody w obydwóch klasach, aby dokonywały poprawnych obliczeń
+- pola będą prywatne a konstruktor i metody publiczne
+- przetestuj w main
+
+Zadanie 3
+Stwórz interfejs wewnętrzny o nazwie "Info" z metodą “wyswietlInfo” w klasie, w której masz metodę main. Przećwiczyć tworzenie klasy anonimowej tworząc ją w metodzie main i przesłoń metodę tak, aby wypisywała tekst “informacja wypisana z klasy anonimowej”. Następnie wywołaj tę metodę “wyswietlInfo” i sprawdź czy prawidłowo została stworzona klasa anonimowa.
